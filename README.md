@@ -11,5 +11,5 @@
 <br>
 
 ### Access my solutions for questions:
-. <a href="https://github.com/ruan-narici/LeetCodeQuestions/blob/main/TwoSum/src/Solution.java" target="_blank">Two Sum</a>
+1. <a href="https://github.com/ruan-narici/LeetCodeQuestions/blob/main/TwoSum/src/Solution.java" target="_blank">Two Sum</a>
 
