@@ -51,6 +51,9 @@ class Solution {
     		for (int numberTwo = 0; numberTwo < nums.length; numberTwo++) {
     			if (nums[numberOne] + nums[numberTwo] == target) {
     				if (numberOne != numberTwo) {
+    					//In order not to repeat the number, I implemented this condition 
+    					//to compare numberOne with numberTwo.
+    				    //With this condition, I managed to solve LeetCode question 1! :)
     					System.out.println(numberOne + ", " + numberTwo);
     					n1 = numberOne;
     					n2 = numberTwo;
