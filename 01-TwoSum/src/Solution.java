@@ -45,22 +45,21 @@
 //}
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-    	int n1 = 0;
-    	int n2 = 0;
-    	for (int numberOne = 0; numberOne < nums.length; numberOne++) {
-    		for (int numberTwo = 0; numberTwo < nums.length; numberTwo++) {
+    	int numberOne = 0;
+    	int numberTwo = 0;
+    	for (numberOne = 0; numberOne < nums.length; numberOne++) {
+    		for (numberTwo = 0; numberTwo < nums.length; numberTwo++) {
     			if (nums[numberOne] + nums[numberTwo] == target) {
     				if (numberOne != numberTwo) {
 //In order not to repeat the number, I implemented this condition 
 //to compare numberOne with numberTwo.
 //With this condition, I managed to solve LeetCode question 1! :)
     					System.out.println(numberOne + ", " + numberTwo);
-    					n1 = numberOne;
-    					n2 = numberTwo;
+    					return new int[] {numberOne,numberTwo};
     				}
     			}
     		}
     	}
-    	 return new int[] {n1,n2} ;
+    	 return new int[] {0};
     }
 }
