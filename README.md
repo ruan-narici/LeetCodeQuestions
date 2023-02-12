@@ -9,4 +9,4 @@
 
 ### Access my solutions for questions:
 1. <a href="https://github.com/ruan-narici/LeetCodeQuestions/blob/main/01-TwoSum/src/Solution.java" target="_blank">Two Sum</a>
-
+9. <a href="https://github.com/ruan-narici/LeetCodeQuestions/blob/main/09-PalindromeNumber/src/Solution.java" target="_blank">Palindrome Number</a>
