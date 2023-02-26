@@ -1,3 +1,6 @@
+//I check if the String index 0 in the stars array is equal to the next index in the stars array. While the string is not equal, 
+//I implemented two conditions to remove the character from the string.
+//It is also necessary to implement a condition to check that the strs array contains only one index.
 
 public class Solution {
 
